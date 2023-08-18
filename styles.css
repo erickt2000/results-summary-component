@@ -5,12 +5,12 @@
 body {
     margin: 0;
     padding: 0;
+    font-family:'Hanken Grotesk', sans-serif;
 }
 
 .attribution { 
     font-size: 11px; 
     text-align: center; 
-    position: fixed;
 }
 
 .attribution a { 
@@ -18,7 +18,7 @@ body {
 }
 
 .results-summary-component {
-    width: 700px;
+    width: 500px;
     height: 600px;
     display: flex;
     justify-content: center;
