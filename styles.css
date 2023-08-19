@@ -5,6 +5,9 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family:'Hanken Grotesk', sans-serif;
 }
 
@@ -17,12 +20,19 @@ body {
     color: hsl(228, 45%, 44%); 
 }
 
-.results-summary-component {
-    width: 500px;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+    width: 600px;
     box-shadow: 2px 4px 16px rgba(0,0,0,.2);
     border-radius: 10px;
+    display: flex;
+}
+
+.score-container {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 20px;
+    width: 300px;
+}
+
+h1 {
+    color: hsl(241, 100%, 89%)
 }
