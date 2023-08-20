@@ -43,6 +43,10 @@ h1 {
 }
 
 .circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 200px;
     height: 200px;
     border: 0px solid black;
@@ -52,8 +56,15 @@ h1 {
 }
 
 .result {
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bold;
     color: white;
-    
+}
+
+.out-of {
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    color: hsl(241, 100%, 89%);
+    font-weight: bold;
 }
