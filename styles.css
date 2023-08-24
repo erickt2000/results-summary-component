@@ -68,3 +68,8 @@ h1 {
     color: hsl(241, 100%, 89%);
     font-weight: bold;
 }
+
+h2, p {
+    color: hsl(0, 100%, 100%);
+    text-align: center;
+}
