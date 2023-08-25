@@ -17,6 +17,8 @@ body {
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    position: fixed;
+    bottom: 0;
 }
 
 .attribution a { 
@@ -26,7 +28,7 @@ body {
 .container {
     width: 625px;
     box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-    border-radius: 10px;
+    border-radius: 40px;
     display: flex;
     overflow: hidden;
 }
@@ -134,5 +136,6 @@ h3 {
     font-weight: 800;
     cursor: pointer;
     font-size: 16px;
+    border: none;
 }
 
