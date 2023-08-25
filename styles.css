@@ -93,13 +93,27 @@ h3 {
     justify-content: space-between;
 }
 
-.reaction-rectangle {
-    background-color: hsla(0, 100%, 67%, 0.164);
+.rectangle {
     display: flex;
     height: 50px;
     border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-.results {
+.rectangle:nth-child(1) {
+    background-color: hsla(0, 100%, 67%, 0.164);
+}
 
+.rectangle:nth-child(2) {
+    background-color: hsla(39, 100%, 56%, 0.164);
+}
+
+.rectangle:nth-child(3) {
+    background-color: hsla(166, 100%, 37%, 0.164);
+}
+
+.rectangle:nth-child(4) {
+    background-color: hsla(234, 85%, 45%, 0.164);
 }
