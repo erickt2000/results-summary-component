@@ -139,3 +139,7 @@ h3 {
     border: none;
 }
 
+.continue-button:hover {
+    background-color: hsla(224, 30%, 27%, 0.924);
+}
+
