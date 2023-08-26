@@ -128,6 +128,15 @@ h3 {
     color: hsl(234, 85%, 45%);
 }
 
+b {
+    color: hsl(224, 30%, 27%);
+}
+
+.score {
+    color: hsla(224, 30%, 27%, 0.924);
+}
+
+
 .continue-button {
     background-color: hsl(224, 30%, 27%);
     color: white;
