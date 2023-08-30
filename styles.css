@@ -152,3 +152,24 @@ b {
     background-color: hsla(224, 30%, 27%, 0.924);
 }
 
+@media screen and (max-width: 650px) {
+    body {
+        align-items: flex-start;
+    }
+
+    .container {
+        box-shadow: none;
+        flex-direction: column;
+        border-radius: 0;
+    }
+    
+    .score-container {
+        border-radius: 0;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        width: 63%;
+    }
+
+
+  
+}
