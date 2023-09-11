@@ -152,7 +152,7 @@ b {
     background-color: hsla(224, 30%, 27%, 0.924);
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 600px) {
     body {
         align-items: flex-start;
     }
@@ -191,5 +191,7 @@ b {
         font-size: 56px;
     }
 
-
+    .attribution {
+        position: relative;
+    }
 }
